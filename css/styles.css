@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ebee;
+    display: flex;
+    justify-content: flex-end;
+}
+.loginbox {
+    width: 350px;
+    margin: 0px 100px 0 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* margin: 100px 30px 0px 900px; */
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="password"] {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; 
+    border-radius: 3px;
+    font-size: 14px;
+    
+}
+button[type="submit"] {
+    padding: 15px;
+    background-color: #0866ff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+button {
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    /* padding: 10px; */
+    margin: 10px auto;
+    margin-bottom: 0px;
+    font-size: smaller;
+    color: #0866ff;
+    
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+button[type=button] {
+    background-color: #42b72a;
+    margin: 20px auto;
+    margin-top: 5px;
+    width: 200px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.pagecreate {
+    width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: black;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.left {
+  width: 50%;
+}
+
+img {
+    margin-top: -300px;
+  width: 300px;   /* facebook logo size */
+  /* margin-bottom: 15px; */
+}
+
+.left p {
+    padding: 0 0 0 25px;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 100;
+}
+input:focus {
+  outline: none;
+  border: 1px solid #0866ff;
+  box-shadow: 0 0 0 1px #0866ff;
+}
+
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #dadde1;
+  margin: 20px 0;
+}
